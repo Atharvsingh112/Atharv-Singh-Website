@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background for a clean look */
+    color: #333; /* Dark text for readability */
+}
+
+header {
+    background: #222; /* Dark header for contrast */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    padding: 40px 20px; /* More padding for spaciousness */
+    margin: 20px 0;
+    max-width: 800px; /* Limit width for better readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    border-bottom: 2px solid #222; /* Underline for section titles */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 1px solid #ccc; /* Light border for projects */
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9; /* Light background for project cards */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.project h3 {
+    margin-top: 0; /* Remove top margin */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #222; /* Dark footer */
+    color: #fff; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007BFF; /* Link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
