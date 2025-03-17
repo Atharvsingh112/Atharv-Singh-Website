@@ -60,6 +60,16 @@ h2 {
     margin-top: 0; /* Remove top margin */
 }
 
+.achievement {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.achievement img {
+    max-width: 100%;
+    height: auto; /* Responsive image */
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
